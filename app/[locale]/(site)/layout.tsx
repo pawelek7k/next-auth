@@ -1,7 +1,7 @@
-import NextAuthProvider from "@/app/(site)/NextAuthProvider";
+import NextAuthProvider from "./NextAuthProvider";
 import type { Metadata } from "next";
-import { SiteNavigation } from "../components/navigations/SiteNav";
-import { ThemeProvider } from "../components/theme-provider";
+import { SiteNavigation } from "@/app/components/navigations/SiteNav";
+import { ThemeProvider } from "@/app/components/theme-provider";
 import "../globals.css";
 
 export const metadata: Metadata = {
